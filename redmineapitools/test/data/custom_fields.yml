@@ -1,0 +1,47 @@
+---
+custom_fields:
+  - customized_type: project
+    default_value:
+    field_format: list
+    id: 1
+    is_filter: true
+    name: Phase
+    possible_values:
+      - value: Idee
+      - value: Antrag
+      - value: Genehmigung
+      - value: Aktiviert
+      - value: Abgelehnt
+    regexp:
+    searchable: true
+    visible: true
+  - customized_type: user
+    default_value:
+    field_format: string
+    id: 2
+    name: Telefon
+    regexp:
+    visible: true
+  - customized_type: user
+    default_value:
+    field_format: text
+    id: 3
+    name: Zusatzinfos
+    regexp:
+    visible: true
+  - customized_type: issue
+    default_value:
+    field_format: int
+    id: 4
+    is_filter: true
+    name: Zahlenwert
+    regexp:
+    roles: {}
+    trackers:
+      tracker:
+        id: 1
+        name: test
+    visible: true
+
+
+# vim: set filetype=yaml sw=2 ts=2 sts=2 expandtab:

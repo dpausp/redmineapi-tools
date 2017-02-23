@@ -1,0 +1,21 @@
+---
+trackers:
+  - id: 1
+    name: Fehler
+  - id: 2
+    name: Feature
+  - id: 3
+    name: Unterstützung
+  - id: 4
+    name: Allgemein
+  - id: 5
+    name: Support
+  - id: 7
+    name: Meeting
+  - id: 10
+    name: testtracker
+  - id: 11
+    name: Entwicklung
+
+
+# vim: set filetype=yaml sw=2 ts=2 sts=2 expandtab:
