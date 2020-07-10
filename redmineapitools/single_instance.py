@@ -115,6 +115,11 @@ class RedmineAPIWrapper(object):
         trackers = list(self.api.tracker.all())
         return trackers
 
+    @cached_property
+    def trackers_to_id(self):
+        ids = {tracker.name: tracker.id for tracker in self.trackers}
+        return ids
+
     def set_custom_fields_by_name(self, issue, cf_names_to_values):
         cf_ids = self.custom_fields_to_id
         cf_ids_to_values = {cf_ids[text_type(name)]: value for name, value in iteritems(cf_names_to_values)}
