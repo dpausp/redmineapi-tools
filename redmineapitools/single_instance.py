@@ -4,7 +4,7 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     Functions and a API wrapper class working with a single Redmine instance.
-    
+
 
     :copyright: (c) 2017 by Tobias `dpausp` <dpausp@posteo.de>
     :license: BSD, see LICENSE for more details.
@@ -12,10 +12,10 @@
 import logging
 import uuid
 
-from redmine import Redmine
+from redminelib import Redmine
 from redmineapitools.external.werkzeug import cached_property
 from six import iteritems, text_type
-from redmine.exceptions import ForbiddenError
+from redminelib.exceptions import ForbiddenError
 
 
 logg = logging.getLogger(__name__)
