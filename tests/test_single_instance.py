@@ -11,7 +11,7 @@ pjoin = path.join
 import httpretty
 from httpretty import register_uri
 from pytest import fixture, yield_fixture
-from redmineapitools.single_instance import RedmineAPIWrapper
+from redmineapi_tools.single_instance import RedmineAPIWrapper
 import yaml
 
 BASEDIR = path.join(path.dirname(__file__), "data")

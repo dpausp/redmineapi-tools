@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-    redmineapitools.single_instance
+    redmineapi_tools.single_instance
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     Functions and a API wrapper class working with a single Redmine instance.
@@ -13,7 +13,7 @@ import logging
 import uuid
 
 from redminelib import Redmine
-from redmineapitools.external.werkzeug import cached_property
+from redmineapi_tools.external.werkzeug import cached_property
 from six import iteritems, text_type
 from redminelib.exceptions import ForbiddenError
 
@@ -56,7 +56,7 @@ def get_tracker_by_name(project, tracker_name):
 
 
 class RedmineAPIWrapper(object):
-    """Stateful Redmine API wrapper 
+    """Stateful Redmine API wrapper
     Caches some Redmine instance configuration objects like trackers or statuses
     and provides some convenient higher-level access methods that may depend on cached config objects."""
 

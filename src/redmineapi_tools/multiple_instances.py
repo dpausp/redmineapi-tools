@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-    redmineapitools.multiple_instances
+    redmineapi_tools.multiple_instances
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    Helpers dealing with multiple Redmine instances. 
+    Helpers dealing with multiple Redmine instances.
     Use cases:
-    
+
     - copy redmine issues from one instance to another
 
 
