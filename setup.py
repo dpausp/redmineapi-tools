@@ -28,6 +28,6 @@ setup(
     packages=["redmineapitools"],
     tests_require=["pytest-httpretty", "pytest"],
     install_requires=["python-redmine"],
-    setup_requires=["setuptools-git", "pytest-runner"],
+    setup_requires=["setuptools-git"],
     include_package_data=True,
 )
